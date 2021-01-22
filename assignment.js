@@ -14,9 +14,7 @@ kilometerToMeter(2);
 
 /* Budget Calculator */
 function budgetCalculator(ghori, phone, laptop) {
-    if(0 < ghori, phone, laptop){
-        var total = ghori * 50 + phone * 100 + laptop * 500;
-    }
+    var total = ghori * 50 + phone * 100 + laptop * 500;
     return total;
 }
 budgetCalculator(5, 6, 2);
@@ -39,7 +37,7 @@ function hotelCost(n){
     }
     return cost;
 }
-hotelCost(-12);
+hotelCost(12);
 
 /* Mega Friend */
 function megaFriend(array) {
